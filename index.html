@@ -91,12 +91,14 @@
         </div>
     </footer>
     <script type="text/javascript">
+        //รับ Event เมื่อมีการเลื่อน scroll ในเวป ในทำ Function เปลี่ยน class header เป็น sticky เพื่อให้ nav-bar คิดไปกับหน้าเว็ปเวลาเลื่อน
         window.addEventListener("scroll", function(){
             var header = document.querySelector("header");
             header.classList.toggle("sticky", window.scrollY > 0);
         })
     </script>
     <script>
+        //ประกาศตัวแปร mail รับค่า เมื่อมีการคลิ้กที่ปุ่ม email จะทำการเด้งหน้าต่าง alert แสดง email ออกมา
         const mail=document.getElementById("email");
         mail.onclick=function(){
             alert("EMAIL: gustheworld6@gmail.com")
