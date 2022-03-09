@@ -170,6 +170,7 @@ section{
 
 .skill-1 .para-skill{
     width: 500px;
+    padding-top: 40px;
 }
 
 .sk-m-1{
@@ -205,10 +206,6 @@ section{
 .logo-skill img{
     width: 15%;
     
-}
-
-.para-skill{
-    padding-top: 40px;
 }
 
 .contact-1{
