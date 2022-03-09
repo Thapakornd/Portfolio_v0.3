@@ -23,14 +23,17 @@ header{
     background-color: rgb(244, 244, 245);
 }
 
+html{
+    scroll-behavior: smooth;
+}
 
 body{
     min-height: 200vh;
-    scroll-behavior: smooth;
 }
 
 .logo-1{
     display: flex;
+    letter-spacing: 2px;
 }
 
 .logo-2{
@@ -116,4 +119,148 @@ section{
 
 .btn-1:hover{
     background-color: rgb(14, 14, 155);
+}
+
+.about-1{
+    font-family: 'Fredoka',sans-serif;
+    padding-top: 160px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.about-1 .about-contain{
+    display: flex;
+    padding-top: 30px;
+}
+
+.about-1 .img-about{
+    width: 50%;
+    box-shadow: -10px -10px;
+}
+
+.about-1 h1{
+    font-size: 40px;
+    padding-left: 10px;
+}
+
+.about-p{
+    padding-left: 100px;
+    padding-top: 20px;
+    font-family: 'Kanit',sans-serif;
+}
+
+.about-1 .about-logo{
+    display: flex;
+}
+
+.about-1 .logo-about{
+    width: 50px;
+}
+
+.about-p p{
+    padding: 10px;
+}
+
+.skill-1{
+    padding-top: 200px;
+    padding-left: 200px;
+    display: flex;
+    font-family: 'Kanit',sans-serif;
+}
+
+.skill-1 .para-skill{
+    width: 500px;
+}
+
+.sk-m-1{
+    width: 20%;
+    position: relative;
+    right: -20%;
+}
+
+.sk-m-2{
+    width: 20%;
+    position: relative;
+    right: -25%;
+    top: 50%;
+}
+
+.sk-m-3{
+    width: 20%;
+    position: relative;
+    right: -25%;
+}
+
+.logo-skill{
+    display: flex;
+    align-items: center;
+}
+
+.logo-skill h1{
+    font-family: 'Fredoka',sans-serif;
+    font-size: 40px;
+    padding-left: 10px;
+}
+
+.logo-skill img{
+    width: 15%;
+    
+}
+
+.para-skill{
+    padding-top: 40px;
+}
+
+.contact-1{
+    font-family: 'Fredoka',sans-serif;
+    background-color: rgb(221, 223, 219);
+}
+
+.contact-1 div{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-foot h1{
+    padding: 10px;
+    font-size: 40px;
+    letter-spacing: 2px;
+}
+
+.logo-foot img{
+    width: 60px;
+    height: 60px;
+}
+
+.space{
+    margin: 120px;
+}
+
+.nav-foot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+}
+
+.nav-foot li{
+    list-style: none;
+    padding: 15px;
+}
+
+.nav-foot a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #000;
+    border-radius: 20px;
+    padding: 10px;
+    transition: 0.3s ease-out 0s;
+}
+
+.nav-foot a:hover,
+.nav-foot a:active{
+    background-color: rgb(8, 8, 112);
+    padding: 10px 15px;
+    color: #fff;
 }
