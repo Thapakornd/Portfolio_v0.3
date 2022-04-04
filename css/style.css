@@ -261,3 +261,50 @@ section{
     padding: 10px 15px;
     color: #fff;
 }
+
+/* Responsive Website */
+@media only screen and (max-width:1100px) {
+    .sec-1{
+        padding-top: 70px;
+        padding-left: 30px;
+        width: 50%;
+    }
+    
+    .img-1{
+        margin-top: 70px;
+        margin-left: 15px;
+        left: 0px;
+    }
+
+    .logo-1{
+        font-size: 14px;
+    }
+
+    .nav-link li a{
+        font-size: 20px;
+    }
+
+    .about-1{
+        display: flex;
+        flex-direction: column;
+        margin-left: 200px;
+        padding-left: 80px;
+    }
+
+    .about-contain{
+        flex-direction: column;
+    }
+
+    .about-1 .img-about{
+        width: 100%;
+    }
+
+    .about-p{
+        padding-top: 40px;
+        padding-left: 0px;
+    }
+
+    .skill-1{
+        padding-left: 50px;
+    }
+}
